@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Render Code Challenge</title>
+    <style>
+        #advertisement,
+        #headerContent,
+        #bodyContent,
+        #footerContent {
+            display: block;
+        }
+
+        #advertisement {
+            height: 20px;
+        }
+
+        ul li {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <navigation>
+        <ul>
+            <li>
+                <a href="#" onclick="app.Render(0)">Render 0</a>
+            </li>
+            <li>
+                <a href="#" onclick="app.Render(3)">Render 3</a>
+            </li>
+            <li>
+                <a href="#" onclick="app.Render(1)">Render 1</a>
+            </li>
+        </ul>
+    </navigation>
+
+    <div id="advertisement">
+    </div>
+
+    <div id="headerContent">
+    </div>
+
+    <div id="bodyContent">
+    </div>
+
+    <div id="footerContent">
+    </div>
+
+    <script src="render.js"></script>
+
+</body>
+
+</html>
