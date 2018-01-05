@@ -1,0 +1,24 @@
+[
+
+    {
+        "header": "headerContent1",
+        "footer": "footerContent1"
+    },
+    {
+        "header": "headerContent1",
+        "footer": "footerContent1",
+        "body": "bodyContent1"
+    },
+    {
+        "header": "headerContent1",
+        "footer": "footerContent2",
+        "body": "bodyContent2"
+    },
+    {
+        "header": "headerContent2",
+        "footer": "footerContent1",
+        "body": "bodyContent3",
+        "advertisement": "advertisement1"
+    }
+
+]
