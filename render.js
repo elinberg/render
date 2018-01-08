@@ -51,9 +51,9 @@ var app = (function() {
             var header = content.headerContent ? content.headerContent : '';
             var footer = content.footerContent ? content.footerContent : '';
             var body = content.bodyContent ? content.bodyContent : '';
-            document.querySelector('#headerContent').innerHTML = header;
-            document.querySelector('#footerContent').innerHTML = footer;
-            document.querySelector('#bodyContent').innerHTML = body;
+            document.querySelector('#header').innerHTML = header;
+            document.querySelector('#footer').innerHTML = footer;
+            document.querySelector('#body').innerHTML = body;
             document.querySelector('#advertisement').innerHTML = advertisement;
 
         }
